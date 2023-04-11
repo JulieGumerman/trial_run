@@ -27,10 +27,10 @@ module.exports = {
             database: process.env.RDS_DB_NAME,
         },
         migrations: {
-            directory: "./data/migrations",
+            directory: "../data/migrations",
         },
         seeds: {
-            directory: "./data/seeds",
+            directory: "../data/seeds",
         },
     },
 };
